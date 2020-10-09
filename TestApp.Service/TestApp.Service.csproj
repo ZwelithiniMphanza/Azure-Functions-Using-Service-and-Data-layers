@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <OutputType>Exe</OutputType>
+  <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>TestApp.Service</AssemblyName>
+    <RootNamespace>TestApp.Service</RootNamespace>
+  <ItemGroup>
+    <ProjectReference Include="..\TestApp.Data\TestApp.Data.csproj" />
+  </ItemGroup>
+</Project>
